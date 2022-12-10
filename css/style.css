@@ -1,5 +1,8 @@
 body {
-    
+    background-image: url(./images/background-min.JPG);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
 }
@@ -33,10 +36,7 @@ ul {
     padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(./images/background-min.JPG);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    
 }
 
 @media screen and (min-width: 480px) {
@@ -62,29 +62,37 @@ ul {
     margin-bottom: 60px;
 }
 
-/* @media screen and (min-width: 1200px) { */
-    /* .section { */
-        /* margin-bottom: 94px; */
-    /* }
-} */
-
 .section-title {
     color: white;
     font-weight: 100;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 1.17;
     text-align: center;
     margin-bottom: 10px;
 }
 
+@media screen and (min-width: 480px) {
+    .section-title {
+    font-size: 32px;
+    }
+}
+
 .header-text {
     color: white;
-    font-weight: 1000;
-    font-size: 32px;
+    font-weight: 700;
+    font-size: 26px;
     line-height: 1.17;
     letter-spacing: 0.15em;
     text-align: center;
     margin-bottom: 50px;
+}
+
+@media screen and (min-width: 480px) {
+    .header-text {
+        font-size: 32px;
+        font-weight: 1000;
+        letter-spacing: 0.15em;
+    }
 }
 
 .body-text{color: #fff;
@@ -93,6 +101,9 @@ ul {
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;}
+
+.client-link-text{
+    margin-bottom: 30px;}
 
 
 
