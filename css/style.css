@@ -150,7 +150,7 @@ ul li::before {
 }
 
 .header-text {
-    color: white;
+    color: rgb(235, 192, 52);
     font-weight: 700;
     font-size: 28px;
     line-height: 1.17;
