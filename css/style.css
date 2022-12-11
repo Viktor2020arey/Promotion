@@ -152,9 +152,9 @@ ul li::before {
 .header-text {
     color: white;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.17;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     text-align: center;
     margin-bottom: 50px;
 }
