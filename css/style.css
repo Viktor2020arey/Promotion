@@ -99,6 +99,10 @@ ul li::before {
     margin-right: auto;
 }
 
+.section-title.price-title{
+    margin-bottom: 0px;
+}
+
 .container-footer{
     padding: 0;
 }
