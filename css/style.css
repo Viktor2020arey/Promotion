@@ -67,16 +67,30 @@ ul li::before {
     text-align: center;
     align-items: center;
     color: #fff;
-        font-weight: 300;
+        font-weight: 800;
         font-size: 18px;
         text-transform: uppercase;
 }
 
+.container-arrow{
+    display: flex;
+    justify-content: center;
+        /* text-align: center; */
+        align-items: start;
+        color: #fff;
+            font-weight: 300;
+            font-size: 18px;
+}
+
 .text-star{
     text-transform: none;
+    font-weight: 300;
 }
 
 .arrow-img{
+    position: relative;
+        top: 0px;
+        left: 3px;
     transform: rotate(-90deg);
 }
 
