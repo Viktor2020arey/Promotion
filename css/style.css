@@ -61,6 +61,25 @@ ul li::before {
     
 }
 
+.container-star{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+        font-weight: 300;
+        font-size: 18px;
+        text-transform: uppercase;
+}
+
+.text-star{
+    text-transform: none;
+}
+
+.arrow-img{
+    transform: rotate(-90deg);
+}
+
 .container-footer{
     padding: 0;
 }
