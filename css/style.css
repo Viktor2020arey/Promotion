@@ -243,7 +243,7 @@ text-align: center;}
 .social-link:hover,
 .social-link:focus {
     fill: var(--white-text);
-    background-color: var(--accent-color);
+    background-color: rgba(235, 192, 52, 0.6);
 }
 
 .social-item:not(:last-child) {
