@@ -11,7 +11,7 @@
 
 
 body {
-    background-image: url(./images/background-min.JPG);
+    background-image: url(../images/background-min.JPG);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -206,7 +206,7 @@ text-align: center;}
 
 
 
-/* .social-list {
+.social-list {
     display: flex;
     justify-content: center;
     height: 44px;
@@ -219,7 +219,7 @@ text-align: center;}
 }
 
 .link-icon:hover {
-    --color3: var(--accent-color);
+        --color3: var(--accent-color);
     --color4: var(--white-text);
 }
 
@@ -228,8 +228,8 @@ text-align: center;}
     padding: 0;
     height: 44px;
     width: 44px;
-    fill: #afb1b8;
-    background-color: var(--white-text);
+    fill: var(--white-text);
+    background-color: rgb(235, 192, 52);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -248,4 +248,4 @@ text-align: center;}
 
 .social-item:not(:last-child) {
     margin-right: 10px;
-} */
+}
