@@ -80,6 +80,11 @@ ul li::before {
     transform: rotate(-90deg);
 }
 
+.price-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container-footer{
     padding: 0;
 }
