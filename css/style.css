@@ -25,7 +25,6 @@ h2,
 h3,
 h4,
 p {
-    text-transform: uppercase;
     margin: 0;
     padding: 0;
 }
@@ -86,7 +85,9 @@ ul li::before {
     margin-bottom: 60px;
 }
 
-
+.section-header{
+    text-transform: uppercase;
+}
 
 .section-title {
     color: white;
@@ -130,15 +131,17 @@ ul li::before {
 
     .author{
         margin-bottom: 20px;
-        /* font-family: 'La Belle Aurore', cursive; */
+        text-align: center;
     }
 
     .author-name{
         font-size: 16px;
+        text-align: right;
     }
 
 .client-link-text{
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+text-align: center;}
 
 .main-list{
     color: #fff;
